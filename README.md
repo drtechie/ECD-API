@@ -48,8 +48,6 @@ To build the ECD module from source, follow these steps:
 3. You can copy `ecd_example.properties` to `ecd_local.properties` and edit the file accordingly. The file is under `src/main/environment` folder.
 4. Run the spring server with local configuration `mvn spring-boot:run -DENV_VAR=local` 
 
-  mvn spring-boot:run
-  ```
 - Open your browser and navigate to http://localhost:8080/swagger-ui.html#!/
 
 ## Usage
